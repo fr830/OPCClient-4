@@ -19,7 +19,7 @@ public class Client {
         ci.setPassword("");
         ci.setProgId("PCAuto.OPCServer");
         ci.setClsid("3FB14190-DEF2-4bba-998A-719C49C74DE1"); // if ProgId is not working, try it using the Clsid instead
-        final String itemId = "P21_JJT.PV";
+        final String itemId = "P21_JJT.PV";//items
         // create a new server
         final Server server = new Server(ci, Executors.newSingleThreadScheduledExecutor());
 
