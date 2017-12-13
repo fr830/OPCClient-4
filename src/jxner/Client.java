@@ -8,7 +8,7 @@ import org.openscada.opc.lib.da.SyncAccess;
 
 import java.util.concurrent.Executors;
 
-public class App {
+public class Client {
 
     public static void main(String[] args) throws Exception {
         // create connection information
