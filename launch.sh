@@ -5,7 +5,7 @@
 git pull origin master
 
 # compile project
-javac -Djava.ext.dirs=./lib   -encoding utf8  Client.java
+javac -d ./bin/jxner -Djava.ext.dirs=./lib  ./src/jxner/Client.java
 
 # run project
-java -Djava.ext.dirs=./lib  Client
+java -cp ./bin/jxner -Djava.ext.dirs=./lib  jxner.Client
