@@ -13,7 +13,11 @@ public class ListOpcServer {
 	
 	public static void main(String[] args) throws IllegalArgumentException,
 			UnknownHostException,JIException {
-		ServerList serverList = new ServerList("127.0.0.1","Administrator","1111","");
+//		ServerList serverList = new ServerList("192.168.168.55","qqgr2","1234","");//中间的力控【首站和部分二级站】数据源设置为2
+		ServerList serverList = new ServerList("192.168.168.60","qqgr3","1234","");//左边的力控【二级站】数据源设置为3
+
+//		ServerList serverList = new ServerList("127.0.0.1","","","");
+
 		
 		Collection<ClassDetails> classDetails = serverList.
 				listServersWithDetails(new Category[] {
@@ -21,7 +25,7 @@ public class ListOpcServer {
 					Categories.OPCDAServer30},new Category[] {});
 		
 		for(ClassDetails cds : classDetails) {
-			System.out.println(cds.getProgId() + "=" + cds.getDescription());
+			System.out.println(cds.getProgId() + "===" + cds.getDescription()+"  |  "+cds.getClsId());
 		}	
 		
 	}

@@ -14,11 +14,15 @@ public class ListGroupAndItem {
 
 	public static void main(String[] args) throws Exception {
 		ConnectionInformation ci = new ConnectionInformation();
-		ci.setHost("");
+		ci.setHost("192.168.168.55");
 		ci.setDomain("");
-		ci.setUser("");
-		ci.setPassword("");
-		ci.setClsid("");
+		ci.setUser("qqgr2");
+		ci.setPassword("1234");
+		ci.setClsid("3fb14190-def2-4bba-998a-719c49c74de1");
+//		ci.setProgId("OPC.SimaticNET.PD");
+		ci.setProgId("PCAuto.OPCServer");
+//		ci.setProgId("OpcEnum");
+
 		
 		Server server = new Server(ci, Executors.newSingleThreadScheduledExecutor());
 		
