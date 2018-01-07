@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.openscada.jinterop:org.openscada.jinterop.core:2.1.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openscada/jinterop/org.openscada.jinterop.core/2.1.8-SNAPSHOT/org.openscada.jinterop.core-2.1.8-20150512.072733-32.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openscada/jinterop/org.openscada.jinterop.core/2.1.8-SNAPSHOT/org.openscada.jinterop.core-2.1.8-20150512.072733-32-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openscada/jinterop/org.openscada.jinterop.core/2.1.8-SNAPSHOT/org.openscada.jinterop.core-2.1.8-20150512.072733-32-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
